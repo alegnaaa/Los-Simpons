@@ -1,0 +1,55 @@
+@font-face {
+    font-family: theSimponsFont;
+    src: url(simpsonsFont.ttf) format('truetype');
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(35, 88, 85);
+    font-family: 'theSimpsonsFont';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+    position: fixed;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.image-container {
+    width: 100%;
+    margin-top: 100px;
+    object-position: center;
+}
+
+.image-container img {
+    width: 170%;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    object-fit: cover
+}
+
+.text-container {
+    float: inline-start;
+    width: 100%;
+    font: 300px;
+
+}

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: theSimponsFont;
+    src: url(text/simpsonsFont.ttf) format('truetype');
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.alturaBoton {
+    height: 5rem;
+    background-color: rgb(0, 255, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: theSimponsFont ;
+}
+.alturaBoton2 {
+    height: 5rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: theSimponsFont ;
+}
+.slider{
+    height: 20rem;
+    background-color: rgb(246, 235, 20);
+    background-image: url(images/theSimpsonsLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.marge {
+    background-color: rgb(146, 146, 218);
+    background-image: url(images/maargeeee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: theSimponsFont ;
+    height: 40rem;
+
+}
+
+.homer {
+    background-color: rgb(238, 222, 206);
+    background-image: url(images/homeroo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20rem;
+    width: 50%;
+    font-family: theSimponsFont ;
+}
+
+.bart {
+    background-color: rgb(231, 112, 68);
+    background-image: url(images/baaaaart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20rem;
+    width: 50%;
+    font-family: theSimponsFont ;
+}
+
+.lisa{
+    background-color: violet;
+    background-image: url(images/lisaa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20rem;
+    width: 50%;
+    font-family: theSimponsFont ;
+}
+
+.maggie{
+    background-color: blanchedalmond;
+    background-image: url(images/maggie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20rem;
+    width: 50%;
+    font-family: theSimponsFont ;
+}
